@@ -5,6 +5,7 @@ const http = require('http');
 const app = express();
 const port = 8383;
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.post('/webhook', (req, res) => {
     const apiKey = '6de6dc4c0b5b806fcf7beb4527285ddc766e6ef8';
