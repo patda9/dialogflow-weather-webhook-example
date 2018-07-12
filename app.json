@@ -1,0 +1,6 @@
+{
+    "name": "dialogflow v2 webhook example",
+    "description": "a sample webhook for api.ai",
+    "repository": "https://github.com/patda9/dialogflow-weather-webhook-example",
+    "keywords": ["dialogflow", "v2", "api.ai", "webhook", "chatbot"]
+}
